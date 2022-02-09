@@ -23,21 +23,24 @@ function singleRound(playerSelection, computerSelection) {
     } else if ((playerSelection === "paper" && computerSelection === "rock") ||
     (playerSelection === "rock" && computerSelection === "scissors") ||
     (playerSelection === "scissors" && computerSelection === "paper")) {
+        playerScore++;
         console.log("You with this round!")
     } else if ((playerSelection === "paper" && computerSelection === "scissors") ||
     (playerSelection === "rock" && computerSelection === "paper") ||
     (playerSelection === "scissors" && computerSelection === "rock")) {
+        computerScore++;
         console.log("You lose this round! Computer wins!")
     } 
-
-    console.log(playerSelection)
-    console.log(computerSelection)
 } 
 
-singleRound();
 
-// function game(playerSelection, computerSelection) {
-    
-// }
+function game() {
+    for (let i = 0; i < 5; i++) {
+        singleRound();
+        console.log("Computer Score: " + computerScore + " Player Score: " + playerScore);
+    }
+}
+
+game();
 
 
