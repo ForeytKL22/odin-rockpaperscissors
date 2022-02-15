@@ -1,6 +1,5 @@
 let computerPoints = 0;
 let playerPoints = 0;
-let roundWinner = '';
 
 let rockBtn = document.getElementById('rock');
 let paperBtn = document.getElementById('paper');
