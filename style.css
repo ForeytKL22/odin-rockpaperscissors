@@ -1,5 +1,57 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 #results {
-    border: 1px solid black;
     width: 200px;
     height: 100px;
+}
+
+.game {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#results {
+    text-align: center;
+    margin-top: 50px;
+} 
+
+.end-game {
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.end-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.restart-button {
+    height: 20px;
+    width: 80px;
+    background-color: rgb(161, 161, 201);
 }
