@@ -1,3 +1,5 @@
 # odin-rockpaperscissors
 
-Javascript practice for creating rock paper scissors game. Currently it only works in the console.
+An interactive rock-paper-scissors game created through The Odin Project curriculum. 
+
+I practiced DOM manipulation and click handler events. 
